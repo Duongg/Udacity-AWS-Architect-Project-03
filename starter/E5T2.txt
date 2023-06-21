@@ -1,13 +1,18 @@
 # Identify tools that will allow you to do the following:
 
 ## Scan infrastructure as code templates
-
+     - Terrascan: https://github.com/tenable/terrascan
+     - Regula: https://github.com/fugue/regula
 ### Example vulnerability
-
+    Set Security Group allow ingress to port 22
 ##Scan AMI’s or containers for OS vulnerabilities
-
+    Clair, Anchore, Trivy
 ### Example vulnerability
-
+    - Allowing SSH password login
+    - Vulnerabilities to Django libraries
 ##Scan an AWS environment for cloud configuration vulnerabilities
-
+    - AWS Inspector
+    - AWS GuardDuty
 ### Example vulnerability
+    - Server side encryption is not enabled.
+    - Allow SSH from all traffic.
